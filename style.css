@@ -1,0 +1,183 @@
+body{
+    margin: 0 auto;
+    padding: 0 ;
+   
+    font-family: 'Work Sans',
+    sans-serif;
+    width: 1080px;
+}
+
+.navber{
+    display: inline-block;
+    text-align: right;
+    
+    
+}
+.navber ul{
+    margin-right: auto;
+}
+.navber ul li{
+    font-size: 18px;
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+    margin-right: auto;
+
+}
+
+
+.top_hero{
+   height: 450px;
+
+   
+    width:960px;
+  
+
+}
+.half_width{
+    width: 40%;
+    float: left;
+    margin: 4%;
+    padding-right: 2%;
+}
+.half_width h1{
+    font-size: 50px;
+    line-height: .5;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif\z ;
+    color: #3E415F;
+}
+.half_width h1 .name-orenge{
+    color: rgb(52, 55, 240);
+}
+.half_width img{
+    width:100%
+}
+ p{
+    color: dimgray;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.top-button{
+    text-decoration: none;
+    margin-top: 30px;
+    font-size:24px;
+    color:white;
+    font-weight: 700px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, rgb(80, 82, 189), rgb(17, 20, 204));
+}
+.project{
+    margin-top: 100px;
+    
+    display: inline-block;
+}
+.project h1{
+    font-size: 50px;
+    text-align: center;
+    
+}
+.project-header{
+    color: tomato;
+}
+
+h2{
+    font-size: 40px; 
+    font-weight: 700;
+}
+.card {
+    width: 25%;
+    float: left;
+    margin: 2%;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 15px;
+  
+   box-shadow: 5px 5px 20px;
+}
+.card img {
+    width: 100%;
+}
+.card h3{
+    font-size: 30px;
+    color: #3E415F;
+}
+.card p{
+    font-size: 16px;
+}
+.experience{
+    margin-top: 150px;
+    display: inline-block;
+}
+.experience-card{
+
+     width: 45%;
+     float:left;
+     margin: 1%;
+     padding-right: 2%;
+     display: inline-block;
+     border-radius: 15px;
+     box-shadow: 5px 5px 20px;
+     padding: 10px;
+}
+.experience-card h3{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+.experience-card h4{
+    text-align: left;
+    color: white;
+   font-size: 18px; 
+   font-weight:400 ;
+   line-height: 1px;
+}
+.experience-card p{
+    color: rgb(238, 238, 238);
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 0px;
+}
+.experience h1{
+       font-size: 50px;
+       text-align: center;
+}
+#experience
+{
+    background-image: url(images/Experience.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#education{
+     background-image: url(images/Education.jfif);
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+.work-inquery{
+  
+    margin: 0 auto;
+    width:70%;
+       background-image: url(images/Experience.png);
+       background-repeat: no-repeat;
+       background-position: center center;
+       padding: 30px 20px;
+    
+}
+.work-inquery-card-left{
+   margin: 0px;
+   display: inline-block;
+   
+}
+
+.work-inquery-card-right {
+    float: right;
+
+}
+.work-inquery-card h1{
+    color: white;
+}
+.work-inquery-card a{
+    float: right;
+    margin-left: auto;
+}
