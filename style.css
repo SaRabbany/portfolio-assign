@@ -107,7 +107,8 @@ h2{
     font-size: 16px;
 }
 .experience{
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: inline-block;
 }
 .experience-card{
@@ -132,6 +133,7 @@ h2{
    font-size: 18px; 
    font-weight:400 ;
    line-height: 1px;
+   margin: 0;
 }
 .experience-card p{
     color: rgb(238, 238, 238);
@@ -161,23 +163,51 @@ h2{
        background-image: url(images/Experience.png);
        background-repeat: no-repeat;
        background-position: center center;
-       padding: 30px 20px;
+       padding: 20px 30px;
+       border-radius: 10px;
     
 }
-.work-inquery-card-left{
-   margin: 0px;
+
+.work-inquery-card-left h1{
+   
    display: inline-block;
+   color: white;
    
 }
 
-.work-inquery-card-right {
-    float: right;
+.work-inquery-card-left a {
+    margin-left: 350px;
+    display: inline-block;
+   
 
 }
-.work-inquery-card h1{
+#chat-button {
+    text-decoration: none;
+    margin-top: 0px;
+    font-size: 24px;
     color: white;
+    font-weight: 700px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, rgb(80, 82, 189), rgb(17, 20, 204));
+    box-shadow: 5px 5px 20px rgb(90, 114, 219);
 }
-.work-inquery-card a{
-    float: right;
-    margin-left: auto;
+footer{
+    text-align: center;
+    line-height:1;
+    margin-top: 50px;
 }
+footer h4{
+    font-size: 16px;
+    color: #3E415F;
+    line-height: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer h2{
+    color: #3E415F;
+}
+footer p{
+    letter-spacing: .5;
+    font-size: 14px;
+}
+
